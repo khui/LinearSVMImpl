@@ -4,9 +4,16 @@ Implementation of linear svm with l2-penalty and hinge loss, without interceptio
 Results of the perforamce on text classification tasks. The Web Track from TREC is used, to compare against 
 the sklearn.svm.LinearSVM(C=10000, class_weight=None, dual=True). The documents are spitted, and 60% documents are used as training data.
 
-The reported gain/loss is based on average F1 score from binary classification with GD for 50 queries in each year.
+The reported gain/loss is based on average F1 score from binary classification with GD for 50 queries with 300 iterations.
 
 wt11 -7.1%
 wt12 -5.2%
 wt13 -1.4%
 wt14 +0.7%
+
+                                                                              | Gain (+) /Loss (-)
+------------------------------------------------------------------------------|--------
+[TREC 2011 Web Track: Topics 51-100](http://trec.nist.gov/data/web2011.html)  | -7.1%
+[TREC 2012 Web Track: Topics 101-150](http://trec.nist.gov/data/web2012.html) | -5.2%
+[TREC 2013 Web Track: Topics 151-200](http://trec.nist.gov/data/web2013.html) | -1.4%
+[TREC 2014 Web Track: Topics 151-200](http://trec.nist.gov/data/web2014.html) | +0.7%
