@@ -6,11 +6,6 @@ the sklearn.svm.LinearSVM(C=10000, class_weight=None, dual=True). The documents 
 
 The reported gain/loss is based on average F1 score from binary classification with GD for 50 queries with 300 iterations.
 
-wt11 -7.1%
-wt12 -5.2%
-wt13 -1.4%
-wt14 +0.7%
-
                                                                               | Gain (+) /Loss (-)
 ------------------------------------------------------------------------------|--------
 [TREC 2011 Web Track: Topics 101-150](http://trec.nist.gov/data/web2011.html)  | -7.1%
